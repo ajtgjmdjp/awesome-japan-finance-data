@@ -205,6 +205,9 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | **東洋経済オンライン** | `https://toyokeizai.net/list/feed/rss` | 日本語 | ビジネス分析、企業ニュース |
 | **Nikkei Asia** | `https://asia.nikkei.com/rss` | 英語 | アジアビジネス（日本含む） |
 
+**Pythonライブラリ:**
+- [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) - 日本金融ニュースRSSフィード向けMCPサーバー（Yahoo, NHK, Reuters, 東洋経済）。APIキー不要。 [![PyPI](https://img.shields.io/pypi/v/japan-news-mcp)](https://pypi.org/project/japan-news-mcp/)
+
 > **注意:** 日経新聞（nikkei.com）は日本語RSSフィードを廃止しました。Bloomberg Japanには公開RSS・APIがありません。
 
 ### 商用ニュースAPI
@@ -235,9 +238,10 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) | EDINET（企業開示） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/edinet-mcp) | EDINET APIキー |
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat（政府統計） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat APIキー |
 | [boj-mcp](https://github.com/ajtgjmdjp/boj-mcp) | BOJ（中央銀行データ） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/boj-mcp) | なし |
+| [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) | 金融ニュース（RSSフィード） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/japan-news-mcp) | なし |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
 
-**統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）で、日本の金融データの3大公式ソースをカバーします。
+**統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）+ japan-news-mcp（ニュース）で、日本の金融データの4大カテゴリをカバーします。
 
 ---
 

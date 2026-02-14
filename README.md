@@ -205,6 +205,9 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 | **Toyokeizai Online** | `https://toyokeizai.net/list/feed/rss` | Japanese | Business analysis, corporate news |
 | **Nikkei Asia** | `https://asia.nikkei.com/rss` | English | Asian business (inc. Japan) |
 
+**Python Libraries:**
+- [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) - MCP server for Japanese financial news RSS feeds (Yahoo, NHK, Reuters, Toyokeizai). No API key required. [![PyPI](https://img.shields.io/pypi/v/japan-news-mcp)](https://pypi.org/project/japan-news-mcp/)
+
 > **Note:** Nikkei (nikkei.com) has discontinued its Japanese RSS feeds. Bloomberg Japan has no public RSS or API.
 
 ### Commercial News APIs
@@ -235,9 +238,10 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 | [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) | EDINET (corporate disclosures) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/edinet-mcp) | EDINET API key |
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat (government statistics) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat API key |
 | [boj-mcp](https://github.com/ajtgjmdjp/boj-mcp) | BOJ (central bank data) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/boj-mcp) | None |
+| [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) | Financial news (RSS feeds) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/japan-news-mcp) | None |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode (commercial) | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode API key |
 
-**Combined stack:** edinet-mcp (filings) + estat-mcp (macro stats) + boj-mcp (monetary data) covers the three major official sources of Japanese financial data.
+**Combined stack:** edinet-mcp (filings) + estat-mcp (macro stats) + boj-mcp (monetary data) + japan-news-mcp (news) covers the four major categories of Japanese financial data.
 
 ---
 
