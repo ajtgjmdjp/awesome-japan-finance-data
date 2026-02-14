@@ -37,7 +37,7 @@ Japan's official electronic disclosure system operated by the Financial Services
 | **Auth** | API key (free registration) |
 | **Format** | REST API (JSON), XBRL, PDF |
 | **Rate Limit** | Not officially published |
-| **Terms** | Free for non-commercial use. Government data (CC BY 4.0 equivalent) |
+| **Terms** | Free for commercial & non-commercial use with attribution. Licensed under [PDL1.0](https://www.digital.go.jp/en/resources/open_data/public_data_license_v1.0). Scraping prohibited; API access allowed. |
 
 **Python Libraries:**
 - [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) - XBRL parser + MCP server with 161 normalized labels, 26 financial metrics, multi-company screening. [![PyPI](https://img.shields.io/pypi/v/edinet-mcp)](https://pypi.org/project/edinet-mcp/)

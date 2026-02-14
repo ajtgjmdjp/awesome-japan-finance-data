@@ -37,7 +37,7 @@
 | **認証** | APIキー（無料登録） |
 | **形式** | REST API (JSON), XBRL, PDF |
 | **レート制限** | 公式には未公開 |
-| **利用規約** | 非商用利用は無料。政府データ（CC BY 4.0相当） |
+| **利用規約** | 商用・非商用問わず出典表記で利用可。[公共データ利用規約(PDL1.0)](https://www.digital.go.jp/en/resources/open_data/public_data_license_v1.0)準拠。スクレイピング禁止、API利用可 |
 
 **Pythonライブラリ:**
 - [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) - XBRLパーサー＋MCPサーバー。161の正規化ラベル、26の財務指標、複数企業スクリーニング対応。 [![PyPI](https://img.shields.io/pypi/v/edinet-mcp)](https://pypi.org/project/edinet-mcp/)
