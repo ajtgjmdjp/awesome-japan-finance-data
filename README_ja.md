@@ -63,6 +63,26 @@
 **Pythonライブラリ:**
 - [TimelyDisclosure](https://github.com/DesSecurities/TimelyDisclosure) - TDNET＋Kabutan＋PRTIMES通知ボット。(3 stars)
 
+### EDINET DB
+
+日本の上場企業の有報データを構造化して提供するプラットフォーム。JP GAAP・IFRS・US GAAPを統一スキーマに名寄せ。英語対応。
+
+| | |
+|---|---|
+| **URL** | https://edinetdb.jp/（日本語）/ https://edinetdb.com/（英語） |
+| **データ** | 名寄せ済み財務諸表（90項目）、有報全文テキスト（事業リスク、MD&A、経営方針等）、財務健全性スコア、AI企業サマリー、TDNet決算短信、大量保有報告書、販管費内訳 |
+| **対象** | 上場企業3,800社超、FY2011〜2026（16年分） |
+| **認証** | APIキー（Googleログインで無料発行） |
+| **料金** | Free（100件/日）/ Pro ¥4,980/月（1,000件/日）/ Business ¥29,800/月（10,000件/日） |
+| **形式** | REST API（JSON、16エンドポイント）、リモートMCPサーバー（17ツール、SSEトランスポート） |
+| **利用規約** | 全プランで商用利用可。APIを使ったアプリ構築を明示的に許可。データベースの一括複製・再API化は禁止。[利用規約](https://edinetdb.jp/legal/terms)参照 |
+
+**APIリファレンス:** https://edinetdb.jp/docs/api-reference
+
+**MCPガイド:** https://edinetdb.jp/docs/mcp-guide
+
+**メソドロジー:** https://edinetdb.jp/docs/methodology（名寄せロジック、スコアリングアルゴリズム、ガード条件を全公開）
+
 ### BuffettCode
 
 日本企業財務データの商用API。
@@ -239,6 +259,7 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat（政府統計） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat APIキー |
 | [boj-mcp](https://github.com/ajtgjmdjp/boj-mcp) | BOJ（中央銀行データ） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/boj-mcp) | なし |
 | [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) | 金融ニュース（RSSフィード） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/japan-news-mcp) | なし |
+| [EDINET DB MCP](https://edinetdb.jp/docs/mcp-guide) | EDINET DB（名寄せ済み財務、テキスト、スクリーニング） | — | EDINET DB APIキー（無料） |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
 
 **統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）+ japan-news-mcp（ニュース）で、日本の金融データの4大カテゴリをカバーします。

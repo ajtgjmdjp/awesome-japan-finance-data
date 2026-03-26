@@ -63,6 +63,26 @@ Real-time corporate disclosure system for listed companies on Japanese exchanges
 **Python Libraries:**
 - [TimelyDisclosure](https://github.com/DesSecurities/TimelyDisclosure) - TDNET + Kabutan + PRTIMES notification bot. (3 stars)
 
+### EDINET DB
+
+Structured financial data platform for Japanese listed companies. Normalizes EDINET XBRL filings across JP-GAAP, IFRS, and US-GAAP into a unified schema with English support.
+
+| | |
+|---|---|
+| **URL** | https://edinetdb.com/ |
+| **Data** | Normalized financial statements (90 fields), annual report full text (business risks, MD&A, management policies), financial health scores, AI company summaries, TDNet earnings, large shareholding reports, SG&A breakdowns |
+| **Coverage** | 3,800+ listed companies, FY2011–2026 (16 years) |
+| **Auth** | API key (free registration via Google sign-in) |
+| **Pricing** | Free (100 req/day) / Pro ¥4,980/mo (1,000 req/day) / Business ¥29,800/mo (10,000 req/day) |
+| **Format** | REST API (JSON, 16 endpoints), Remote MCP server (17 tools, SSE transport) |
+| **Terms** | Commercial use allowed on all plans. Building apps on top of the API is explicitly permitted. Bulk database replication and re-API-ification prohibited. See [Terms](https://edinetdb.com/legal/terms). |
+
+**API Reference:** https://edinetdb.com/docs/api-reference
+
+**MCP Guide:** https://edinetdb.com/docs/mcp-guide
+
+**Methodology:** https://edinetdb.com/docs/methodology (normalization logic, scoring algorithm, and guard conditions fully published)
+
 ### BuffettCode
 
 Commercial API for Japanese corporate financial data.
@@ -235,6 +255,7 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat (government statistics) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat API key |
 | [tdnet-disclosure-mcp](https://github.com/ajtgjmdjp/tdnet-disclosure-mcp) | TDNET (timely disclosures) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/tdnet-disclosure-mcp) | None |
 | [stockprice-mcp](https://github.com/ajtgjmdjp/stockprice-mcp) | Stock prices & FX (yfinance) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/stockprice-mcp) | None |
+| [EDINET DB MCP](https://edinetdb.com/docs/mcp-guide) | EDINET DB (normalized financials, text, screening) | — | EDINET DB API key (free) |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode (commercial) | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode API key |
 
 **Combined stack:** edinet-mcp (filings) + tdnet-disclosure-mcp (disclosures) + estat-mcp (macro stats) + stockprice-mcp (prices) covers the major categories of Japanese financial data.
