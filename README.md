@@ -18,6 +18,7 @@ Japan has rich public financial data from government agencies and regulators, bu
 - [Central Bank Data](#central-bank-data)
 - [Financial News](#financial-news)
 - [Benchmarks & Datasets](#benchmarks--datasets)
+- [AI Agents](#ai-agents)
 - [MCP Tools](#mcp-tools)
 - [Related Awesome Lists](#related-awesome-lists)
 
@@ -222,6 +223,14 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 - [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - Japanese Financial Reasoning QA Benchmark. 1,000 questions from 68 companies' financial statements. [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
 - [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - Evaluating LLM performance on Japanese financial tasks. (30 stars)
 - [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX stock prediction competition datasets. (56 stars)
+
+---
+
+## AI Agents
+
+Autonomous AI agents for Japanese financial research. These go beyond simple API wrappers — they plan, fetch data from multiple sources, validate, and produce structured analysis reports.
+
+- [dexter-jp](https://github.com/edinetdb/dexter-jp) - Autonomous financial research agent for Japanese stocks. Uses EDINET DB + J-Quants. Supports multiple LLMs (OpenAI, Anthropic, Google, Ollama). Built-in DCF valuation, company screening (100+ metrics), and securities report reading. ![Stars](https://img.shields.io/github/stars/edinetdb/dexter-jp)
 
 ---
 
