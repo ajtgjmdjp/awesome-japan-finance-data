@@ -18,6 +18,7 @@
 - [中央銀行データ](#中央銀行データ)
 - [金融ニュース](#金融ニュース)
 - [ベンチマーク・データセット](#ベンチマークデータセット)
+- [AIエージェント](#aiエージェント)
 - [MCPツール](#mcpツール)
 - [関連Awesomeリスト](#関連awesomeリスト)
 
@@ -246,6 +247,14 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 - [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - 日本語金融推論QAベンチマーク。68社の財務諸表から1,000問。 [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
 - [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - 日本の金融タスクにおけるLLM性能評価。(30 stars)
 - [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX株価予測コンペティションデータセット。(56 stars)
+
+---
+
+## AIエージェント
+
+日本株リサーチ向けの自律型AIエージェント。単なるAPIラッパーではなく、計画→複数データソース横断取得→検証→構造化レポート生成まで自律的に実行する。
+
+- [dexter-jp](https://github.com/edinetdb/dexter-jp) - 日本株特化の自律型リサーチAIエージェント。EDINET DB + J-Quantsを使用。複数LLM対応（OpenAI, Anthropic, Google, Ollama）。DCFバリュエーション、企業スクリーニング（100+指標）、有報テキスト読解を内蔵。 ![Stars](https://img.shields.io/github/stars/edinetdb/dexter-jp)
 
 ---
 
