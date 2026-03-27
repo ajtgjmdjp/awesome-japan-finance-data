@@ -98,25 +98,6 @@
 **ツール:**
 - [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) - BuffettCode APIのMCPサーバー。(1 star)
 
-### EDINET DB
-
-EDINET提出書類をベースとした構造化財務データプラットフォーム。JP-GAAP、IFRS、US-GAAPのXBRLを統一スキーマに名寄せ。
-
-| | |
-|---|---|
-| **URL** | https://edinetdb.jp/（日本語）/ https://edinetdb.com/（英語） |
-| **データ** | 名寄せ済み財務データ（90指標）、財務健全性スコア、企業スクリーニング（100+条件）、有報全文テキスト（事業リスク、MD&A、経営方針）、TDNet決算短信、大量保有報告書、販管費明細 |
-| **カバレッジ** | 上場企業3,800社以上、最大6期分（FY2020-2025） |
-| **認証** | APIキー（無料登録） |
-| **料金** | 無料 |
-| **形式** | REST API (JSON), MCPサーバー |
-| **利用規約** | 商用・非商用問わず利用可 |
-
-**ツール:**
-- [edinetdb-mcp](https://edinetdb.jp/docs/mcp) - EDINET DB APIのMCPサーバー。企業検索、財務データ、スクリーニング、分析、決算短信、大量保有、有報テキスト等17ツール提供。
-
-**APIリファレンス:** https://edinetdb.jp/docs/api
-
 ---
 
 ## 株式市場データ
@@ -289,7 +270,6 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) | 金融ニュース（RSSフィード） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/japan-news-mcp) | なし |
 | [EDINET DB MCP](https://edinetdb.jp/docs/mcp-guide) | EDINET DB（名寄せ済み財務、テキスト、スクリーニング） | — | EDINET DB APIキー（無料） |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
-| [edinetdb-mcp](https://edinetdb.jp/docs/mcp) | EDINET DB（名寄せ財務、スクリーニング、有報テキスト） | - | EDINET DB APIキー（無料） |
 
 **統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）+ japan-news-mcp（ニュース）で、日本の金融データの4大カテゴリをカバーします。
 
