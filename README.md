@@ -98,6 +98,25 @@ Commercial API for Japanese corporate financial data.
 **Tools:**
 - [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) - MCP server for BuffettCode API. (1 star)
 
+### EDINET DB
+
+Structured financial data platform built on EDINET filings. Normalizes XBRL across JP-GAAP, IFRS, and US-GAAP into a unified schema.
+
+| | |
+|---|---|
+| **URL** | https://edinetdb.com/ (English) / https://edinetdb.jp/ (Japanese) |
+| **Data** | Standardized financials (90 metrics), financial health scores, company screening (100+ conditions), securities report full text (business risks, MD&A, management policies), TDNet earnings, large shareholding reports, SGA expense breakdowns |
+| **Coverage** | 3,800+ listed companies, up to 6 fiscal years (FY2020-2025) |
+| **Auth** | API key (free registration) |
+| **Pricing** | Free |
+| **Format** | REST API (JSON), MCP server |
+| **Terms** | Free for commercial & non-commercial use |
+
+**Tools:**
+- [edinetdb-mcp](https://edinetdb.com/docs/mcp) - MCP server for EDINET DB API. Provides 17 tools for company search, financials, screening, analysis, earnings, shareholders, and securities report text.
+
+**API Reference:** https://edinetdb.com/docs/api
+
 ---
 
 ## Stock Market Data
@@ -266,6 +285,7 @@ Autonomous AI agents for Japanese financial research. These go beyond simple API
 | [stockprice-mcp](https://github.com/ajtgjmdjp/stockprice-mcp) | Stock prices & FX (yfinance) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/stockprice-mcp) | None |
 | [EDINET DB MCP](https://edinetdb.com/docs/mcp-guide) | EDINET DB (normalized financials, text, screening) | — | EDINET DB API key (free) |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode (commercial) | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode API key |
+| [edinetdb-mcp](https://edinetdb.com/docs/mcp) | EDINET DB (structured financials, screening, report text) | - | EDINET DB API key (free) |
 
 **Combined stack:** edinet-mcp (filings) + tdnet-disclosure-mcp (disclosures) + estat-mcp (macro stats) + stockprice-mcp (prices) covers the major categories of Japanese financial data.
 
