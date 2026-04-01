@@ -48,6 +48,24 @@ Japan's official electronic disclosure system operated by the Financial Services
 
 **API Reference:** https://disclosure.edinet-fsa.go.jp/api/v2
 
+### EDINET DB
+
+Structured financial data platform built on EDINET filings. Provides analysis-ready APIs and MCP tools for Japanese corporate disclosures.
+
+| | |
+|---|---|
+| **URL** | [edinetdb.jp](https://edinetdb.jp) (JA) / [edinetdb.com](https://edinetdb.com) (EN) |
+| **Data** | 90+ financial metrics, full-text disclosure blocks (MD&A, risks, ESG), large shareholding reports, TDNet earnings, financial health scores, industry benchmarks |
+| **Coverage** | ~3,850 listed companies, FY2014–present (6+ years of time series) |
+| **Auth** | API Key (free registration) |
+| **Format** | REST API (JSON), MCP (Model Context Protocol) |
+| **Rate Limit** | Free: 100/day, Academy: 1,000/day, Pro: 1,000/day, Business: 10,000/day |
+| **Terms** | Free tier available. Academy plan free for ac.jp researchers. Commercial use on paid plans. |
+
+**MCP Server:** [MCP Guide](https://edinetdb.jp/developers/docs/mcp-guide) — 17 tools for Claude, ChatGPT, Codex, and any MCP client.
+
+**API Reference:** https://edinetdb.jp/docs/api
+
 ### TDNET (Timely Disclosure Network)
 
 Real-time corporate disclosure system for listed companies on Japanese exchanges.
