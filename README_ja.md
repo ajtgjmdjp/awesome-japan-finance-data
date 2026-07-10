@@ -191,6 +191,20 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 
 **データカタログ:** https://www.stat-search.boj.or.jp/info/dload_en.html
 
+### FXMacroData
+
+JPY を含む主要 FX 通貨のマクロ経済・中央銀行データ API。
+
+| | |
+|---|---|
+| **URL** | https://fxmacrodata.com/api-data-docs |
+| **データ** | JPY マクロ経済発表、リリースカレンダー、中央銀行コンテキスト、FX セッション、クロスカレンシーのマクロデータセット |
+| **カバレッジ** | 日本およびグローバル FX/マクロデータ |
+| **認証** | 保護された通貨・エンドポイントには API key が必要。公開 USD の例は API key なしで利用可能 |
+| **形式** | REST API (JSON), OpenAPI, MCP |
+
+**API リファレンス:** https://api.fxmacrodata.com/openapi.json
+
 ---
 
 ## 金融ニュース
@@ -239,9 +253,10 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat（政府統計） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat APIキー |
 | [boj-mcp](https://github.com/ajtgjmdjp/boj-mcp) | BOJ（中央銀行データ） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/boj-mcp) | なし |
 | [japan-news-mcp](https://github.com/ajtgjmdjp/japan-news-mcp) | 金融ニュース（RSSフィード） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/japan-news-mcp) | なし |
+| [FXMacroData MCP](https://mcp.fxmacrodata.com) | JPY とグローバル FX のマクロイベント、経済発表、リリースカレンダー | N/A | 保護されたカバレッジには API key |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
 
-**統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）+ japan-news-mcp（ニュース）で、日本の金融データの4大カテゴリをカバーします。
+**統合スタック:** edinet-mcp（有価証券報告書）+ estat-mcp（マクロ統計）+ boj-mcp（金融政策データ）+ japan-news-mcp（ニュース）で、日本の金融データの4大カテゴリをカバーします。FXMacroData MCP は JPY とその他 FX 市場のクロスカレンシーなマクロイベント文脈を追加できます。
 
 ---
 

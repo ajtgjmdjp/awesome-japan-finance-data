@@ -190,6 +190,21 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 
 **Data Catalog:** https://www.stat-search.boj.or.jp/info/dload_en.html
 
+### FXMacroData
+
+Macro and central-bank API with JPY coverage alongside other major FX
+currencies.
+
+| | |
+|---|---|
+| **URL** | https://fxmacrodata.com/api-data-docs |
+| **Data** | JPY macro announcements, release calendar, central-bank context, FX sessions, and cross-currency macro datasets |
+| **Coverage** | Japan plus global FX/macro coverage |
+| **Auth** | API key for protected currencies/endpoints; public USD examples are available without an API key |
+| **Format** | REST API (JSON), OpenAPI, MCP |
+
+**API Reference:** https://api.fxmacrodata.com/openapi.json
+
 ---
 
 ## Financial News
@@ -235,9 +250,10 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat (government statistics) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat API key |
 | [tdnet-disclosure-mcp](https://github.com/ajtgjmdjp/tdnet-disclosure-mcp) | TDNET (timely disclosures) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/tdnet-disclosure-mcp) | None |
 | [stockprice-mcp](https://github.com/ajtgjmdjp/stockprice-mcp) | Stock prices & FX (yfinance) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/stockprice-mcp) | None |
+| [FXMacroData MCP](https://mcp.fxmacrodata.com) | JPY and global FX macro events, announcements, and release calendars | N/A | API key for protected coverage |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode (commercial) | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode API key |
 
-**Combined stack:** edinet-mcp (filings) + tdnet-disclosure-mcp (disclosures) + estat-mcp (macro stats) + stockprice-mcp (prices) covers the major categories of Japanese financial data.
+**Combined stack:** edinet-mcp (filings) + tdnet-disclosure-mcp (disclosures) + estat-mcp (macro stats) + stockprice-mcp (prices) covers the major categories of Japanese financial data. FXMacroData MCP can add cross-currency macro event context for JPY and other FX markets.
 
 ---
 
