@@ -233,6 +233,7 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 | **Bloomberg** | Enterprise ($20,000+/yr) | B-PIPE terminal API |
 | **QUICK** | Enterprise (negotiated) | Institutional data provider |
 | **Reuters/LSEG** | Enterprise ($10,000+/yr) | Reuters Connect |
+| **finlight** | Free tier, paid tiers above | REST/WebSocket/MCP financial news API with Japanese- and Korean-language source coverage; entity resolution (tickers, ISIN). |
 
 ---
 
