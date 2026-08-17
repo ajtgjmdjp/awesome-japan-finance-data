@@ -209,6 +209,17 @@ Time-series statistics from Japan's central bank, available as flat file downloa
 
 **Data Catalog:** https://www.stat-search.boj.or.jp/info/dload_en.html
 
+### FXMacroData
+
+Macro and central-bank API with dedicated Japan coverage (JPY macro announcements, Bank of Japan event calendar) alongside other major currencies.
+
+| | |
+|---|---|
+| **URL** | https://fxmacrodata.com/api-data-docs |
+| **Data** | JPY macro announcements, BOJ event calendar, release schedules, FX sessions |
+| **Auth** | API key for protected endpoints; some endpoints free without a key |
+| **Format** | REST API (JSON), OpenAPI, MCP |
+
 ---
 
 ## Financial News

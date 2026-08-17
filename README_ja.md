@@ -209,6 +209,17 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 
 **データカタログ:** https://www.stat-search.boj.or.jp/info/dload_en.html
 
+### FXMacroData
+
+日本専用カバレッジ（JPYマクロ指標の発表、日銀イベントカレンダー）を持つマクロ・中央銀行API。他の主要通貨もカバー。
+
+| | |
+|---|---|
+| **URL** | https://fxmacrodata.com/api-data-docs |
+| **データ** | JPYマクロ発表、日銀イベントカレンダー、経済指標スケジュール、FXセッション |
+| **認証** | 保護エンドポイントはAPIキー、一部はキー不要 |
+| **形式** | REST API（JSON）、OpenAPI、MCP |
+
 ---
 
 ## 金融ニュース
