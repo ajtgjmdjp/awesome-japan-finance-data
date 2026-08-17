@@ -18,6 +18,7 @@
 - [中央銀行データ](#中央銀行データ)
 - [金融ニュース](#金融ニュース)
 - [ベンチマーク・データセット](#ベンチマークデータセット)
+- [AIエージェント](#aiエージェント)
 - [MCPツール](#mcpツール)
 - [関連Awesomeリスト](#関連awesomeリスト)
 
@@ -46,6 +47,24 @@
 - [edinet2dataset](https://github.com/SakanaAI/edinet2dataset) - EDINETを使ったデータセット構築ツール。(31 stars)
 
 **APIリファレンス:** https://disclosure.edinet-fsa.go.jp/api/v2
+
+### EDINET DB
+
+EDINETの有価証券報告書データを構造化し、分析用のAPI/MCPで提供するプラットフォーム。
+
+| | |
+|---|---|
+| **URL** | [edinetdb.jp](https://edinetdb.jp)（日本語）/ [edinetdb.com](https://edinetdb.com)（英語） |
+| **データ** | 財務指標90+種、有報テキスト全文（事業概況・リスク・MD&A・ESG等）、大量保有報告書、TDNet決算短信、財務健全性スコア、業種ベンチマーク |
+| **カバレッジ** | 上場企業約3,850社、FY2014〜（6年以上の時系列） |
+| **認証** | APIキー（無料登録） |
+| **形式** | REST API（JSON）、MCP（Model Context Protocol） |
+| **レート制限** | Free: 100回/日、Academy: 1,000回/日、Pro: 1,000回/日、Business: 10,000回/日 |
+| **利用条件** | 無料プランあり。Academy枠はac.jpメール研究者向け無料。商用利用は有料プラン |
+
+**MCPサーバー:** [MCPガイド](https://edinetdb.jp/developers/docs/mcp-guide) — Claude・ChatGPT・Codex等17ツール対応。
+
+**APIリファレンス:** https://edinetdb.jp/docs/api
 
 ### TDNET（適時開示情報伝達システム）
 
@@ -224,6 +243,14 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 - [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - 日本語金融推論QAベンチマーク。68社の財務諸表から1,000問。 [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
 - [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - 日本の金融タスクにおけるLLM性能評価。(30 stars)
 - [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX株価予測コンペティションデータセット。(56 stars)
+
+---
+
+## AIエージェント
+
+日本株リサーチ向けの自律型AIエージェント。単なるAPIラッパーではなく、計画→複数データソース横断取得→検証→構造化レポート生成まで自律的に実行する。
+
+- [dexter-jp](https://github.com/edinetdb/dexter-jp) - 日本株特化の自律型リサーチAIエージェント。EDINET DB + J-Quantsを使用。複数LLM対応（OpenAI, Anthropic, Google, Ollama）。DCFバリュエーション、企業スクリーニング（100+指標）、有報テキスト読解を内蔵。 ![Stars](https://img.shields.io/github/stars/edinetdb/dexter-jp)
 
 ---
 
