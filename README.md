@@ -42,9 +42,10 @@ Japan's official electronic disclosure system operated by the Financial Services
 
 **Python Libraries:**
 - [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) - XBRL parser + MCP server with 161 normalized labels, 26 financial metrics, multi-company screening. [![PyPI](https://img.shields.io/pypi/v/edinet-mcp)](https://pypi.org/project/edinet-mcp/)
-- [edinet_xbrl](https://github.com/BuffettCode/edinet_xbrl) - XBRL file downloader and parser. (136 stars)
-- [edinet-tools](https://github.com/matthelmer/edinet-tools) - Python SDK for EDINET data. (26 stars)
-- [edinet2dataset](https://github.com/SakanaAI/edinet2dataset) - Dataset construction tool using EDINET. (31 stars)
+- [edinet_xbrl](https://github.com/BuffettCode/edinet_xbrl) - XBRL file downloader and parser. (139 stars)
+- [edinet-tools](https://github.com/matthelmer/edinet-tools) - Python library for Japanese corporate disclosure data — 42 EDINET document types as typed Python. (51 stars)
+- [edinet2dataset](https://github.com/SakanaAI/edinet2dataset) - Dataset construction tool using EDINET. (40 stars)
+- [xbrl-facts](https://github.com/ajtgjmdjp/xbrl-facts) - Rust iXBRL engine for SEC + EDINET with byte-range provenance and verifiable evidence receipts. Apache-2.0. *(by this list's maintainer)*
 
 **API Reference:** https://disclosure.edinet-fsa.go.jp/api/v2
 
@@ -114,7 +115,7 @@ Official stock data API from Japan Exchange Group (JPX). The primary source for 
 | **Format** | REST API (JSON) |
 
 **Python Libraries:**
-- [jquants-api-client](https://github.com/J-Quants/jquants-api-client-python) - Official Python client. Returns pandas DataFrames. Apache-2.0. (175 stars) [![PyPI](https://img.shields.io/pypi/v/jquants-api-client)](https://pypi.org/project/jquants-api-client/)
+- [jquants-api-client](https://github.com/J-Quants/jquants-api-client-python) - Official Python client. Returns pandas DataFrames. Apache-2.0. (198 stars) [![PyPI](https://img.shields.io/pypi/v/jquants-api-client)](https://pypi.org/project/jquants-api-client/)
 - [jquants-derivatives](https://pypi.org/project/jquants-derivatives/) - Derivatives data client.
 
 > **Important Terms of Use:** J-Quants API is limited to individual personal use. Corporate use, third-party data distribution, and building apps that serve data are prohibited regardless of profit motive. See [利用規約](https://jpx-jquants.com/termsofservice).
@@ -132,7 +133,7 @@ Global stock data including TSE-listed stocks. Use `.T` suffix for Japanese tick
 | **Format** | Python library (scraping-based) |
 
 **Python Libraries:**
-- [yfinance](https://github.com/ranaroussi/yfinance) - Download market data from Yahoo Finance. Apache-2.0. (21,000+ stars)
+- [yfinance](https://github.com/ranaroussi/yfinance) - Download market data from Yahoo Finance. Apache-2.0. (25,000+ stars)
 
 > **Note:** yfinance is based on web scraping. Yahoo may rate-limit or block access. Check Yahoo's terms before commercial use.
 
@@ -251,8 +252,8 @@ Macro and central-bank API with dedicated Japan coverage (JPY macro announcement
 ## Benchmarks & Datasets
 
 - [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - Japanese Financial Reasoning QA Benchmark. 1,000 questions from 68 companies' financial statements. [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
-- [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - Evaluating LLM performance on Japanese financial tasks. (30 stars)
-- [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX stock prediction competition datasets. (56 stars)
+- [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - Evaluating LLM performance on Japanese financial tasks. (36 stars)
+- [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX stock prediction competition datasets. (58 stars)
 
 ---
 

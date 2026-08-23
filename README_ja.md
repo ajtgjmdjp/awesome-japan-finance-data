@@ -42,9 +42,10 @@
 
 **Pythonライブラリ:**
 - [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) - XBRLパーサー＋MCPサーバー。161の正規化ラベル、26の財務指標、複数企業スクリーニング対応。 [![PyPI](https://img.shields.io/pypi/v/edinet-mcp)](https://pypi.org/project/edinet-mcp/)
-- [edinet_xbrl](https://github.com/BuffettCode/edinet_xbrl) - XBRLファイルのダウンロードとパース。(136 stars)
-- [edinet-tools](https://github.com/matthelmer/edinet-tools) - EDINET Python SDK。(26 stars)
-- [edinet2dataset](https://github.com/SakanaAI/edinet2dataset) - EDINETを使ったデータセット構築ツール。(31 stars)
+- [edinet_xbrl](https://github.com/BuffettCode/edinet_xbrl) - XBRLファイルのダウンロードとパース。(139 stars)
+- [edinet-tools](https://github.com/matthelmer/edinet-tools) - 日本企業開示データのPythonライブラリ — EDINET 42書類タイプを型付きで。(51 stars)
+- [edinet2dataset](https://github.com/SakanaAI/edinet2dataset) - EDINETを使ったデータセット構築ツール。(40 stars)
+- [xbrl-facts](https://github.com/ajtgjmdjp/xbrl-facts) - SEC + EDINET 両対応の Rust iXBRL エンジン。バイト位置の出典追跡と検証可能な evidence receipt。Apache-2.0。※本リスト管理者作
 
 **APIリファレンス:** https://disclosure.edinet-fsa.go.jp/api/v2
 
@@ -114,7 +115,7 @@ EDINETの有価証券報告書データを構造化し、分析用のAPI/MCPで�
 | **形式** | REST API (JSON) |
 
 **Pythonライブラリ:**
-- [jquants-api-client](https://github.com/J-Quants/jquants-api-client-python) - 公式Pythonクライアント。pandas DataFrame返却。Apache-2.0。(175 stars) [![PyPI](https://img.shields.io/pypi/v/jquants-api-client)](https://pypi.org/project/jquants-api-client/)
+- [jquants-api-client](https://github.com/J-Quants/jquants-api-client-python) - 公式Pythonクライアント。pandas DataFrame返却。Apache-2.0。(198 stars) [![PyPI](https://img.shields.io/pypi/v/jquants-api-client)](https://pypi.org/project/jquants-api-client/)
 - [jquants-derivatives](https://pypi.org/project/jquants-derivatives/) - デリバティブデータクライアント。
 
 > **利用規約に関する重要事項:** J-Quants APIは個人の私的利用に限定されています。法人利用、第三者へのデータ配信、データを利用したアプリの提供は、営利・非営利を問わず禁止されています。詳細は[利用規約](https://jpx-jquants.com/termsofservice)を参照してください。
@@ -132,7 +133,7 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 | **形式** | Pythonライブラリ（スクレイピングベース） |
 
 **Pythonライブラリ:**
-- [yfinance](https://github.com/ranaroussi/yfinance) - Yahoo Financeから市場データをダウンロード。Apache-2.0。(21,000+ stars)
+- [yfinance](https://github.com/ranaroussi/yfinance) - Yahoo Financeから市場データをダウンロード。Apache-2.0。(25,000+ stars)
 
 > **注意:** yfinanceはウェブスクレイピングに基づいています。Yahooがレート制限やアクセスブロックを行う可能性があります。商用利用前にYahooの利用規約を確認してください。
 
@@ -252,9 +253,9 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 
 ## ベンチマーク・データセット
 
-- [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - 日本語金融推論QAベンチマーク。68社の財務諸表から1,000問。 [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
-- [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - 日本の金融タスクにおけるLLM性能評価。(30 stars)
-- [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX株価予測コンペティションデータセット。(56 stars)
+- [jfinqa](https://github.com/ajtgjmdjp/jfinqa) - 日本語金融推論QAベンチマーク。68社の財務諸表から1,000問。lm-evaluation-harness にマージ済み。※本リスト管理者作 [![PyPI](https://img.shields.io/pypi/v/jfinqa)](https://pypi.org/project/jfinqa/) [![HuggingFace](https://img.shields.io/badge/HF-dataset-yellow)](https://huggingface.co/datasets/ajtgjmdjp/jfinqa)
+- [EDINET-Bench](https://github.com/SakanaAI/EDINET-Bench) - 日本の金融タスクにおけるLLM性能評価。(36 stars)
+- [JPXTokyoStockExchangePrediction](https://github.com/J-Quants/JPXTokyoStockExchangePrediction) - JPX株価予測コンペティションデータセット。(58 stars)
 
 ---
 
