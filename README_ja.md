@@ -275,6 +275,7 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 |---|---|---|---|
 | [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) | EDINET（企業開示） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/edinet-mcp) | EDINET APIキー |
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat（政府統計） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat APIキー |
+| [invokely-mcp-connector](https://github.com/estevecastells/invokely-mcp-connector) | Invokelyのホスト型MCPに接続するMITライセンスのローカルstdioアダプター。[世界銀行の日本のGDP](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=JPN)を[Invokely](https://invokely.ai/en/gdp-usd/japan.md)経由で全期間の年次時系列と出典付きで取得できます。世界銀行のデータは[CC BY 4.0](https://datacatalog.worldbank.org/public-licenses)です。プロプライエタリなホスト側バックエンドは本リポジトリに含まれません。 | ![Stars](https://img.shields.io/github/stars/estevecastells/invokely-mcp-connector) | [アカウント不要の試用](https://invokely.ai/mcp/trial)は1 IPあたり1日25回。無料プランはAPIキーでMCPを月500回利用できます。REST APIのデータ照会にはBuilder、Pro、またはプリペイドが必要です（[料金](https://invokely.ai/pricing)）。 |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
 
 **統合スタック:** edinet-mcp（有価証券報告書）+ tdnet-disclosure-mcp（適時開示）+ estat-mcp（マクロ統計）+ stockprice-mcp（株価・為替）で、日本の金融データの主要カテゴリをカバーします。
