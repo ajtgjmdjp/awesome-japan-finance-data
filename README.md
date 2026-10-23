@@ -273,6 +273,7 @@ Autonomous AI agents for Japanese financial research. These go beyond simple API
 |---|---|---|---|
 | [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) | EDINET (corporate disclosures) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/edinet-mcp) | EDINET API key |
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat (government statistics) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat API key |
+| [Kabuken](https://kabuken.intellics.ai/?utm_source=awesome_japan_finance_data&utm_medium=directory&utm_campaign=edinet_mcp) (EDINET MCP server) | EDINET (financial statements, segments, major shareholders) | ![Stars](https://img.shields.io/github/stars/Intellics-ai/kabuken-mcp-plugin) | OAuth 2.0 or Kabuken API key |
 | [tdnet-disclosure-mcp](https://github.com/ajtgjmdjp/tdnet-disclosure-mcp) | TDNET (timely disclosures) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/tdnet-disclosure-mcp) | None |
 | [stockprice-mcp](https://github.com/ajtgjmdjp/stockprice-mcp) | Stock prices & FX (yfinance) | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/stockprice-mcp) | None |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode (commercial) | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode API key |

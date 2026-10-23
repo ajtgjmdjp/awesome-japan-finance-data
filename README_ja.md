@@ -275,6 +275,7 @@ TSE上場銘柄を含むグローバル株式データ。日本株は`.T`サフ�
 |---|---|---|---|
 | [edinet-mcp](https://github.com/ajtgjmdjp/edinet-mcp) | EDINET（企業開示） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/edinet-mcp) | EDINET APIキー |
 | [estat-mcp](https://github.com/ajtgjmdjp/estat-mcp) | e-Stat（政府統計） | ![Stars](https://img.shields.io/github/stars/ajtgjmdjp/estat-mcp) | e-Stat APIキー |
+| [Kabuken](https://kabuken.intellics.ai/?utm_source=awesome_japan_finance_data&utm_medium=directory&utm_campaign=edinet_mcp)（EDINET MCPサーバー） | EDINET（財務諸表・セグメント・大株主） | ![Stars](https://img.shields.io/github/stars/Intellics-ai/kabuken-mcp-plugin) | OAuth 2.0 または Kabuken APIキー |
 | [buffett-code-mcp-server](https://github.com/BuffettCode/buffett-code-mcp-server) | BuffettCode（商用） | ![Stars](https://img.shields.io/github/stars/BuffettCode/buffett-code-mcp-server) | BuffettCode APIキー |
 
 **統合スタック:** edinet-mcp（有価証券報告書）+ tdnet-disclosure-mcp（適時開示）+ estat-mcp（マクロ統計）+ stockprice-mcp（株価・為替）で、日本の金融データの主要カテゴリをカバーします。
